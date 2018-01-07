@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74564274E196BED2DE071EA6 /* libPods-UITableViewCellAutoImageHeight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC8D405A4DFBF8E00FD803E /* libPods-UITableViewCellAutoImageHeight.a */; };
+		842533991FF5E1F9008F66EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842533981FF5E1F9008F66EC /* AppDelegate.m */; };
+		8425339F1FF5E1F9008F66EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8425339D1FF5E1F9008F66EC /* Main.storyboard */; };
+		842533A11FF5E1F9008F66EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842533A01FF5E1F9008F66EC /* Assets.xcassets */; };
+		842533A41FF5E1F9008F66EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842533A21FF5E1F9008F66EC /* LaunchScreen.storyboard */; };
+		842533A71FF5E1F9008F66EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842533A61FF5E1F9008F66EC /* main.m */; };
+		842533AF1FF5EA54008F66EC /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842533AE1FF5EA54008F66EC /* ImageViewCell.m */; };
+		842533B21FF5FF73008F66EC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842533B11FF5FF73008F66EC /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0737CD33AD5DCC144C2D612A /* Pods-UITableViewCellAutoImageHeight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableViewCellAutoImageHeight.release.xcconfig"; path = "Pods/Target Support Files/Pods-UITableViewCellAutoImageHeight/Pods-UITableViewCellAutoImageHeight.release.xcconfig"; sourceTree = "<group>"; };
+		306800E560A17BB83B4D9331 /* Pods-UITableViewCellAutoImageHeight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UITableViewCellAutoImageHeight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UITableViewCellAutoImageHeight/Pods-UITableViewCellAutoImageHeight.debug.xcconfig"; sourceTree = "<group>"; };
+		842533941FF5E1F9008F66EC /* UITableViewCellAutoImageHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableViewCellAutoImageHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842533971FF5E1F9008F66EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842533981FF5E1F9008F66EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8425339E1FF5E1F9008F66EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842533A01FF5E1F9008F66EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842533A31FF5E1F9008F66EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842533A51FF5E1F9008F66EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842533A61FF5E1F9008F66EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842533AD1FF5EA54008F66EC /* ImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewCell.h; sourceTree = "<group>"; };
+		842533AE1FF5EA54008F66EC /* ImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
+		842533B01FF5FF73008F66EC /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		842533B11FF5FF73008F66EC /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EDC8D405A4DFBF8E00FD803E /* libPods-UITableViewCellAutoImageHeight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UITableViewCellAutoImageHeight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842533911FF5E1F9008F66EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74564274E196BED2DE071EA6 /* libPods-UITableViewCellAutoImageHeight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B94A43949651CAC70EB47D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				306800E560A17BB83B4D9331 /* Pods-UITableViewCellAutoImageHeight.debug.xcconfig */,
+				0737CD33AD5DCC144C2D612A /* Pods-UITableViewCellAutoImageHeight.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8425338B1FF5E1F9008F66EC = {
+			isa = PBXGroup;
+			children = (
+				842533961FF5E1F9008F66EC /* UITableViewCellAutoImageHeight */,
+				842533951FF5E1F9008F66EC /* Products */,
+				0B94A43949651CAC70EB47D2 /* Pods */,
+				D50D55B442B66D8A0AC3B26C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		842533951FF5E1F9008F66EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842533941FF5E1F9008F66EC /* UITableViewCellAutoImageHeight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842533961FF5E1F9008F66EC /* UITableViewCellAutoImageHeight */ = {
+			isa = PBXGroup;
+			children = (
+				842533971FF5E1F9008F66EC /* AppDelegate.h */,
+				842533981FF5E1F9008F66EC /* AppDelegate.m */,
+				842533AD1FF5EA54008F66EC /* ImageViewCell.h */,
+				842533AE1FF5EA54008F66EC /* ImageViewCell.m */,
+				842533B01FF5FF73008F66EC /* TableViewController.h */,
+				842533B11FF5FF73008F66EC /* TableViewController.m */,
+				8425339D1FF5E1F9008F66EC /* Main.storyboard */,
+				842533A01FF5E1F9008F66EC /* Assets.xcassets */,
+				842533A21FF5E1F9008F66EC /* LaunchScreen.storyboard */,
+				842533A51FF5E1F9008F66EC /* Info.plist */,
+				842533A61FF5E1F9008F66EC /* main.m */,
+			);
+			path = UITableViewCellAutoImageHeight;
+			sourceTree = "<group>";
+		};
+		D50D55B442B66D8A0AC3B26C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDC8D405A4DFBF8E00FD803E /* libPods-UITableViewCellAutoImageHeight.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842533931FF5E1F9008F66EC /* UITableViewCellAutoImageHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842533AA1FF5E1F9008F66EC /* Build configuration list for PBXNativeTarget "UITableViewCellAutoImageHeight" */;
+			buildPhases = (
+				4AEC713020FEC47664FEB8BD /* [CP] Check Pods Manifest.lock */,
+				842533901FF5E1F9008F66EC /* Sources */,
+				842533911FF5E1F9008F66EC /* Frameworks */,
+				842533921FF5E1F9008F66EC /* Resources */,
+				A1C4FE73A77B1EB4C5E40F5A /* [CP] Embed Pods Frameworks */,
+				4546569022498E489821B861 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITableViewCellAutoImageHeight;
+			productName = UITableViewCellAutoImageHeight;
+			productReference = 842533941FF5E1F9008F66EC /* UITableViewCellAutoImageHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8425338C1FF5E1F9008F66EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WENBO;
+				TargetAttributes = {
+					842533931FF5E1F9008F66EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8425338F1FF5E1F9008F66EC /* Build configuration list for PBXProject "UITableViewCellAutoImageHeight" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8425338B1FF5E1F9008F66EC;
+			productRefGroup = 842533951FF5E1F9008F66EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842533931FF5E1F9008F66EC /* UITableViewCellAutoImageHeight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842533921FF5E1F9008F66EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842533A41FF5E1F9008F66EC /* LaunchScreen.storyboard in Resources */,
+				842533A11FF5E1F9008F66EC /* Assets.xcassets in Resources */,
+				8425339F1FF5E1F9008F66EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4546569022498E489821B861 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITableViewCellAutoImageHeight/Pods-UITableViewCellAutoImageHeight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AEC713020FEC47664FEB8BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1C4FE73A77B1EB4C5E40F5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UITableViewCellAutoImageHeight/Pods-UITableViewCellAutoImageHeight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842533901FF5E1F9008F66EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842533AF1FF5EA54008F66EC /* ImageViewCell.m in Sources */,
+				842533A71FF5E1F9008F66EC /* main.m in Sources */,
+				842533B21FF5FF73008F66EC /* TableViewController.m in Sources */,
+				842533991FF5E1F9008F66EC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8425339D1FF5E1F9008F66EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8425339E1FF5E1F9008F66EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842533A21FF5E1F9008F66EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842533A31FF5E1F9008F66EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842533A81FF5E1F9008F66EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		842533A91FF5E1F9008F66EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842533AB1FF5E1F9008F66EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 306800E560A17BB83B4D9331 /* Pods-UITableViewCellAutoImageHeight.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITableViewCellAutoImageHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WENBO.UITableViewCellAutoImageHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842533AC1FF5E1F9008F66EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0737CD33AD5DCC144C2D612A /* Pods-UITableViewCellAutoImageHeight.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UITableViewCellAutoImageHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WENBO.UITableViewCellAutoImageHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8425338F1FF5E1F9008F66EC /* Build configuration list for PBXProject "UITableViewCellAutoImageHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842533A81FF5E1F9008F66EC /* Debug */,
+				842533A91FF5E1F9008F66EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842533AA1FF5E1F9008F66EC /* Build configuration list for PBXNativeTarget "UITableViewCellAutoImageHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842533AB1FF5E1F9008F66EC /* Debug */,
+				842533AC1FF5E1F9008F66EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8425338C1FF5E1F9008F66EC /* Project object */;
+}
