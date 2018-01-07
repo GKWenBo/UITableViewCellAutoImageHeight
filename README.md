@@ -1,2 +1,1 @@
-# -UITableViewCellAutoImageHeight
-Autolayout image heihgt demo.
+# UITableViewCellAutoImageHeight
